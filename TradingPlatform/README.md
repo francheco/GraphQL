@@ -10,7 +10,7 @@ cd /Your/Path/Folder/Name/
 
 npm init -y  # Initializes a new Node.js project
 
-npm install apollo-server graphql graphql-subscriptions uuid --save  # Installs Apollo Server,  GraphQL, Subscriptions and uuid 
+npm install apollo-server graphql graphql-subscriptions ws uuid --save  # Installs Apollo Server, ws, GraphQL, Subscriptions and uuid 
 
 Validates 
 
@@ -40,8 +40,6 @@ Once the server is running, you should see output indicating the server is ready
 Query
 
 <img width="1192" alt="image" src="https://github.com/user-attachments/assets/42d55d72-0a91-4846-ba7a-6dbd581e6bd0">
-
-
 
 
 Mutation
